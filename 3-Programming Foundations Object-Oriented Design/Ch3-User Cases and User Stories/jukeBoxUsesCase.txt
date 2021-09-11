@@ -1,0 +1,10 @@
+Title : Play a Song
+Primary Actor : User
+Success Scenario : 
+	1- System identifies user
+	2- User Browes Songs untill choose one
+	3- user select what the last or create new alboum
+	4- if repeat song user can remove it
+	5- System can play songs as use arranged them
+	6- after end he can log out and end
+	

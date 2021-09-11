@@ -1,0 +1,20 @@
+Functional
+- The sytstem must
+	1- maintain a list of songs
+	2- Change currnet song
+	3- Remove song from list
+	4- Start song
+	5 - Allow user to select any song
+	6 - End music
+	7 - allow create fav. list
+	8 - allow create artist list
+
+Non-Functional
+- The System Should be
+	1- intuitive to use while floating in space
+	2- Available every day
+	3- low power
+	4- efficent data
+	5- easy interface
+
+	 

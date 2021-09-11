@@ -1,0 +1,21 @@
+Piching Out Name :
+	System,Libaray,album,list,songs,queue,user,Admin
+
+Possible Object :
+	User , Library , Album , Song , Queue , Admin 
+
+Picking Out Verbs :
+	Identifies user, brwoeses list, select song, player the selected
+	continues a song , add second song to queue , play second
+
+Verb Phrases :
+	Brwose library of albums
+	Select song
+	Play second
+	add second
+	identifies user
+	continues srcond
+
+
+
+

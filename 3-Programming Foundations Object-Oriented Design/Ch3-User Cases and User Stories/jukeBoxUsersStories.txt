@@ -1,0 +1,5 @@
+As a user, I want my song to be added to the front of a long play queue, so that i dont have to wait hours to hear it.
+
+As a user, I want Creat my fav list so that i can listen what i prefer it.
+
+As a user, I want to update my list ,so that i can new songs all times
