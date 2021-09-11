@@ -1,0 +1,8 @@
+if guess == cookies
+output is ==> 
+Yep! So amazing!
+Thanks for playing!
+----------------------
+else output is ==> 
+Yuck! That’s not it!
+Thanks for playing!
