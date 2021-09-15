@@ -1,0 +1,5 @@
+firstQuery
+SELECT firstName,lastName FROM customers
+WHERE birthDay = '2000-05-07'
+
+# that mean table oreder by birthDay
