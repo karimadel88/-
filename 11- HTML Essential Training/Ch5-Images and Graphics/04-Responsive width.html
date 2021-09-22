@@ -1,0 +1,22 @@
+<!--
+    480w = 480 px wide
+    960w = 960 px wide
+-->
+<img src="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog-480.jpg" 
+alt="shiny black dog looking pensive" 
+width="480" height="360"
+
+srcset="https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog-480.jpg 480w
+        https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog-960.jpg 960w, 
+        https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog-1440.jpg 1440w, 
+         https://s3-us-west-2.amazonaws.com/s.cdpn.io/10558/dog-1920.jpg 1920w"
+
+sizes="(max-width: 480px) 240px,(max-width: 960px) 480px,(max-width: 1440px) 960px, 1920px"
+>
+<!--
+    the sizes attribute
+        Lists which size image to use at which media query
+    
+    the srcset attribute 
+        Allows you to specify multiple files to be used based on either viewport width or image pixel width
+-->
