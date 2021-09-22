@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Basics</title>
+</head>
+<body>
+    <main>
+        <form action="success.html" method="get">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name">
+            <label for="email">Email</label>
+            <input name="email" id="email" type="email" required placeholder="me@example.com">
+
+            <label for="password">password</label>
+            <input type="password" name="pass" id="pass">
+
+            <label for="search">Search</label>
+            <input type="search" name="search" id="search">
+
+            <label for="phone">Phone Number</label>
+            <input id="phone" name="phone" type="tel">
+
+            <label for="textarea">Text Area</label>
+            <textarea name="textarea" id="textarea" cols="30" rows="10"></textarea>
+
+            <label for="date">Date</label>
+            <input type="date" name="date" id="date">
+
+            <label for="color">Color</label>
+            <input type="color" name="color" id="color">
+
+            <label for="file">File</label>
+            <input type="file" name="file" id="file" accept="image/*" multiple>
+
+            <label for="checkbox">checkbox</label>
+            <input type="checkbox" name="ch1" id="ch1">
+
+            <label for="selectList">choose one</label>
+            <select name="" id="">
+                <option value="">1</option>
+                <option value="">2</option>
+                <option value="">3</option>
+            </select>
+
+            <fieldset>
+                <legend>My fieldset</legend>
+                <input type="radio" name="" id="">
+                <input type="radio" name="" id="">
+                <input type="radio" name="" id="">
+            </fieldset>
+            <button type="submit">Sign up</button>
+        </form>
+    </main>
+</body>
+</html>
