@@ -1,0 +1,11 @@
+/*
+    color:red;                  #name of color
+    color:#ff0000; => #f00      #hexadecimal
+    color:rgb(255,0,0);         #rgb
+
+    hsl and hsla
+    defines value by its hue, saturation and lightness
+    hsl(270,60%,70%)
+    hsla(270,60%,70%,0.7)
+
+*/
