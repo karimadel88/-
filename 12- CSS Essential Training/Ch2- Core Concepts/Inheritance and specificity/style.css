@@ -1,0 +1,29 @@
+/*
+    1- *
+    2- type
+    3- class
+    4- id -> override 
+    
+*/
+
+section {
+  font-family: avenir, sans-serif;
+  font-size: 30px;
+  color: orange;
+}
+* {
+  color: lightblue;
+}
+
+p {
+  color: green;
+}
+.ex {
+  color: black;
+}
+#ex {
+  color: chocolate;
+}
+section p {
+  color: crimson;
+}
