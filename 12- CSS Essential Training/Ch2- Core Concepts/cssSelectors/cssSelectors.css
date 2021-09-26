@@ -1,0 +1,61 @@
+/*
+    1- The most basic kind of selector,simple matching pattren
+        
+        /* Matches to All <h1> eleemt
+        h1{
+            ...
+        }
+************************************************************
+    2- Universal Selector To match all element
+
+        * {
+            ...
+        }
+************************************************************
+    3- Class Selector
+        - used class attribute in html element to specifiy this element to edit it by css
+            <p>par 1</p>
+            <p class = "p2">par 2</p> //to edit par 2 we used class attribute to edit it by class selector
+            we used . to specifiy as .p2{}
+        - class selector is reusable
+        - can use multiple classes by use spase between two selector as 
+            <p class="p1 p2"></p>
+            <p class="p1"</p>
+************************************************************
+    4- Id Selector
+        - id attribute in html element
+        - in css #id to specify it as #id{}
+        - Can only be used once per pega
+
+        -IDs can used in page linking
+            ex <a href="example">Links to a spot on the page</a>
+               <section id="example">Link goes here</section>
+**************************************************************
+    5- Naming Conventions
+        name1-name2 as class-name
+        used meaningful and descriptive names
+        use easily understood abbrevitions
+*/
+
+* {
+  color: red;
+}
+h1 {
+  color: gray;
+}
+h2 {
+  color: green;
+}
+#example {
+  font-size: 100px;
+}
+.example {
+  color: palegoldenrod;
+  font-size: 500px;
+}
+
+.example2 {
+  background-color: black;
+}
+.example.example2 {
+}
