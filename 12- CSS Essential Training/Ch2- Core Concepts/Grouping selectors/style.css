@@ -1,0 +1,21 @@
+* {
+  color: red;
+}
+
+h1,
+h2 {
+  color: seagreen;
+}
+
+.karim,
+.eid {
+  color: slateblue;
+}
+h1,
+h2,
+h3 {
+  font-weight: normal;
+}
+h2.intro {
+  font-size: 100px;
+}
