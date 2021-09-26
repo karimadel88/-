@@ -1,0 +1,13 @@
+div {
+  background-color: red;
+  height: 50px;
+  width: 300px;
+}
+span {
+  background-color: lightblue;
+  height: 50px;
+  width: 300px;
+  /*not change as its inline element to solve that can used display*/
+  /*display: inline-block;*/ /*To be inline but block peoperty*/
+  display: block;
+}
