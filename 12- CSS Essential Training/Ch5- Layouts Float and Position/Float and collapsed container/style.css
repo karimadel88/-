@@ -1,0 +1,23 @@
+/*  first way to clear child in parent div */
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.container {
+  border: 2px solid black;
+  width: 500px;
+  margin: 0 auto;
+  /*Second*/
+  /* overflow: hidden; */
+  /* Third */
+  /* display: flow-root; */
+}
+.float {
+  background: lightblue;
+  border: 1px solid white;
+  width: 60px;
+  height: 60px;
+  padding: 10px;
+  float: left;
+}
