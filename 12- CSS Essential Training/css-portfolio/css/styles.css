@@ -9,6 +9,14 @@ https://coolors.co/f7fff7-343434-2f3061-ffe66d-a1c6d7
 */
 
 /* Global styles */
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
 body {
   color: #343434;
   margin: 0;
@@ -16,7 +24,7 @@ body {
   font-family: "Montserrat", sans-serif;
   font-size: 15px;
   line-height: 1.5;
-  text-align: center;
+  /* text-align: center; */
 }
 h1,
 h2 {
@@ -69,6 +77,21 @@ header {
 }
 .projects .btn:hover {
   background-color: rgb(47, 48, 97, 0.8);
+}
+.pro-item {
+  /* content: "";
+  display: table;
+  clear: both; */
+  overflow: hidden;
+  border-bottom: 1px dashed #343434;
+  padding: 20px 0;
+}
+.pro-item h3 {
+  margin-top: 0;
+}
+.pro-item img {
+  float: left;
+  margin-right: 20px;
 }
 
 /* Work experience */
