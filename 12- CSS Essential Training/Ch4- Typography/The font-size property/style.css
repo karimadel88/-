@@ -1,0 +1,9 @@
+html {
+  font-size: 2rem; /* 2 * 16 = 32 */
+}
+.parent {
+  font-size: 2em; /* 2 * 32 = 64 */
+}
+.child {
+  font-size: 2em; /* 2*64 = 128 */
+}
