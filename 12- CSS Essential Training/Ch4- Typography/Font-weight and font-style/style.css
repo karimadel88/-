@@ -1,0 +1,8 @@
+header {
+  font-style: italic;
+  font-style: oblique;
+}
+header h1 {
+  font-weight: 400;
+  font-weight: normal; /*change from h1 with blod to normal word*/
+}
