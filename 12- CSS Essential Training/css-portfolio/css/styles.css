@@ -62,7 +62,13 @@ h3 {
 .item-details h3 ~ p {
   margin: 0;
 }
-
+.divider > section {
+  border-bottom: 1px dashed #343434;
+  padding: 25px 0;
+}
+.divider > section:last-of-type {
+  border: none;
+}
 /* Profile */
 header {
   background-color: #2f3061;
@@ -93,8 +99,6 @@ header {
   display: table;
   clear: both; */
   overflow: hidden;
-  border-bottom: 1px dashed #343434;
-  padding: 20px 0;
 }
 .pro-item h3 {
   margin-top: 0;
