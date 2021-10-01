@@ -53,6 +53,15 @@ h2 {
   margin: 0 auto;
   padding: 60px 0;
 }
+h3 {
+  margin-bottom: 0;
+}
+.item-details h3 + p {
+  font-style: italic;
+}
+.item-details h3 ~ p {
+  margin: 0;
+}
 
 /* Profile */
 header {
