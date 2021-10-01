@@ -1,0 +1,15 @@
+/*must be first to work*/
+p:first-child {
+  color: chocolate;
+}
+p:last-child {
+  color: darkblue;
+}
+
+/*musnt be first to work*/
+p:first-of-type {
+  color: darkgoldenrod;
+}
+p:last-of-type {
+  color: darkgrey;
+}
