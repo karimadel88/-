@@ -1,0 +1,17 @@
+section p {
+  color: red;
+}
+/*inside section only*/
+section > p {
+  color: blue;
+}
+
+/*brother*/
+h1 + p {
+  color: blueviolet;
+}
+
+/*brothers*/
+h1 ~ p {
+  color: chartreuse;
+}
