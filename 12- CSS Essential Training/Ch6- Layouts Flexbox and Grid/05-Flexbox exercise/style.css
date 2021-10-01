@@ -1,0 +1,15 @@
+.container {
+  background-color: lightblue;
+  margin-bottom: 10px;
+  display: flex;
+  width: 500px;
+  /* flex-wrap: wrap; */
+  margin: 0 auto;
+}
+.item {
+  box-sizing: border-box;
+  border: 1px solid midnightblue;
+  padding: 10px;
+  /*flex: grow dhrink basis*/
+  flex: 1 1 100px;
+}
