@@ -49,7 +49,8 @@ h2 {
   font-size: 45px;
 }
 .content-wrap {
-  width: 800px;
+  max-width: 800px;
+  width: 80%;
   margin: 0 auto;
   padding: 60px 0;
 }
